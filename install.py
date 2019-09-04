@@ -23,11 +23,12 @@ if x == '1':
 		print ('Restart the application please')
 		...
 	else:
-		os.system('git clone https://github.com/Mx312275/.style.py.git')
+		os.system('git clone https://github.com/Mx312275/.style')
 		os.system('apt install figlet -y')
 		os.system('apt install toilet -y')
-		os.system('mv .style.py/.style.py ~/.style.py')
-		os.system('rm -rif .style.py')
+		os.system('apt install jp2a -y')
+		os.system('mv .style/.style.py ~/.style.py')
+		os.system('rm -rif .style')
 		os.system('clear')
 		print ('Restart the application please')
 
